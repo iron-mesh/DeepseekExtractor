@@ -1,0 +1,18 @@
+{
+  "name": "DeepSeekExtractor",
+  "description": "Assistant for extracting chats from DeepSeek exported data",
+  "project_page_url": "https://translate.google.com/translate?sl=ru&tl=en&u=https://wiki.ironmesh.ru/products:pyrog-plugins:deepseek-extractor:main",
+  "manual_url": "https://translate.google.com/translate?sl=ru&tl=en&u=https://wiki.ironmesh.ru/products:pyrog-plugins:deepseek-extractor:manual:main",
+  "version": "1.0.0",
+  "version_status": "",
+  "init_release_date": "2026-08-10",
+  "update_date": "2026-09-04",
+  "changelog_url": "",
+  "developer": "IronMesh",
+  "developer_email": "feedback@ironmesh.ru",
+  "developer_webpage": "https://ironmesh.ru",
+  "repository_url": "",
+  "forum_url": "",
+  "source_language": "en_GB",
+  "dependencies": ["deepseek_tokenizer"]
+}
