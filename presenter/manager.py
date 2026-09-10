@@ -161,7 +161,7 @@ def _on_select_last_msg():
                     case "THINK":
                         msg_fragment.type = DeepSeekMessage.Fragment.Type.THINK
                         msg_fragment.content = fragment["content"]
-                    case "TOOL_SEARCH":
+                    case "TOOL_SEARCH" | "SEARCH":
                         msg_fragment.type = DeepSeekMessage.Fragment.Type.TOOL_SEARCH
                         msg_fragment.search_result = \
                             [DeepSeekMessage.Fragment.SearchResultItem(**i) for i in fragment["results"]]
